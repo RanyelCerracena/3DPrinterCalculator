@@ -1,0 +1,6 @@
+@_3DPrinterCalculator_HostAddress = http://localhost:5186
+
+GET {{_3DPrinterCalculator_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
