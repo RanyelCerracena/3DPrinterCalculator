@@ -1,6 +1,3 @@
-using _3DPrinterCalculator.Extensions;
-using _3DPrinterCalculator.Models;
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.

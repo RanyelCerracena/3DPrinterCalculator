@@ -1,24 +1,30 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
 namespace _3DPrinterCalculator.Models
 {
     public class MaterialModel 
     {
+        public bool IsFilament { get; set;}
         public int MaterialPrice { get; set; }
-        
         public int ResinWeight { get; set; }
-        public int ResinPrice { get; set; }
-        public int FilamentPrice { get; set; }
         
         
-        public MaterialModel()
+        public decimal ExpendedMaterial { get; set; }
+        public string CalculateCostPerGram()
         {
-            var resinWeighInGrams = ResinWeight * 1000;
-            var resinPriceInGrams = ResinPrice / 1000;
-            var filamentPriceInGrams = FilamentPrice / 1000;
+            if (IsFilament)
+            {
+                var filamentPricePerGram = (decimal)MaterialPrice / 1000m;
+                var filamentPrintCost =  filamentPricePerGram * ExpendedMaterial;
+                
+                return $"{filamentPrintCost:C}";
+            }
+            else
+            {
+                var resinPricePerGram = (decimal)MaterialPrice / ResinWeight ;
+                var resinPrintCost = resinPricePerGram * ExpendedMaterial;
+                
+                return $"{resinPrintCost:C}";
+            }
+
         }
 
     }

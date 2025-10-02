@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/ranyel/Documents/dev/apis/3DPrinterCalculator/3DPrinterCalculator.csproj": {}
+    "/home/ranyel/Documents/dev/Apis/3DPrinterCalculator/3DPrinterCalculator.csproj": {}
   },
   "projects": {
-    "/home/ranyel/Documents/dev/apis/3DPrinterCalculator/3DPrinterCalculator.csproj": {
+    "/home/ranyel/Documents/dev/Apis/3DPrinterCalculator/3DPrinterCalculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ranyel/Documents/dev/apis/3DPrinterCalculator/3DPrinterCalculator.csproj",
+        "projectUniqueName": "/home/ranyel/Documents/dev/Apis/3DPrinterCalculator/3DPrinterCalculator.csproj",
         "projectName": "3DPrinterCalculator",
-        "projectPath": "/home/ranyel/Documents/dev/apis/3DPrinterCalculator/3DPrinterCalculator.csproj",
+        "projectPath": "/home/ranyel/Documents/dev/Apis/3DPrinterCalculator/3DPrinterCalculator.csproj",
         "packagesPath": "/home/ranyel/.nuget/packages/",
-        "outputPath": "/home/ranyel/Documents/dev/apis/3DPrinterCalculator/obj/",
+        "outputPath": "/home/ranyel/Documents/dev/Apis/3DPrinterCalculator/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/ranyel/.nuget/NuGet/NuGet.Config"
@@ -71,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/256/sdk/8.0.407/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/current/sdk/8.0.407/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

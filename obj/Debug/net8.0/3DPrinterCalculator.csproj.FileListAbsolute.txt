@@ -31,3 +31,4 @@
 /home/ranyel/Documents/dev/apis/3DPrinterCalculator/obj/Debug/net8.0/3DPrinterCalculator.pdb
 /home/ranyel/Documents/dev/apis/3DPrinterCalculator/obj/Debug/net8.0/3DPrinterCalculator.genruntimeconfig.cache
 /home/ranyel/Documents/dev/apis/3DPrinterCalculator/obj/Debug/net8.0/ref/3DPrinterCalculator.dll
+/home/ranyel/Documents/dev/Apis/3DPrinterCalculator/obj/Debug/net8.0/3DPrinterCalculator.sourcelink.json
