@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pIgAWUP70MU=",
+  "dgSpecHash": "9qWbJmJHdOQ=",
   "success": true,
-  "projectFilePath": "/home/ranyel/Documents/dev/Apis/3DPrinterCalculator/3DPrinterCalculator.csproj",
+  "projectFilePath": "/home/ranyel/Documents/dev/apis/3DPrinterCalculator/3DPrinterCalculator.csproj",
   "expectedPackageFiles": [
     "/home/ranyel/.nuget/packages/microsoft.aspnetcore.openapi/8.0.14/microsoft.aspnetcore.openapi.8.0.14.nupkg.sha512",
     "/home/ranyel/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
@@ -12,5 +12,15 @@
     "/home/ranyel/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.6.2/swashbuckle.aspnetcore.swaggergen.6.6.2.nupkg.sha512",
     "/home/ranyel/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.6.2/swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "projectPath": "/home/ranyel/Documents/dev/apis/3DPrinterCalculator/3DPrinterCalculator.csproj",
+      "warningLevel": 1,
+      "filePath": "/home/ranyel/Documents/dev/apis/3DPrinterCalculator/3DPrinterCalculator.csproj",
+      "targetGraphs": []
+    }
+  ]
 }

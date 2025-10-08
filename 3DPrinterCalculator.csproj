@@ -12,4 +12,12 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Teste\bin\Debug\net8.0\Teste.deps.json" />
+    <_ContentIncludedByDefault Remove="Teste\bin\Debug\net8.0\Teste.runtimeconfig.json" />
+    <_ContentIncludedByDefault Remove="Teste\obj\Debug\net8.0\Teste.sourcelink.json" />
+    <_ContentIncludedByDefault Remove="Teste\obj\project.assets.json" />
+    <_ContentIncludedByDefault Remove="Teste\obj\Teste.csproj.nuget.dgspec.json" />
+  </ItemGroup>
+
 </Project>
