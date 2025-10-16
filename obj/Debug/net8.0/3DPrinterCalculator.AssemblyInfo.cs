@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("3DPrinterCalculator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f2e9e5d81f74583a782c0e4f20fefa5f0af68a8a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ffad6b63050ee90cac1e97add77cf7bee79f5952")]
 [assembly: System.Reflection.AssemblyProductAttribute("3DPrinterCalculator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("3DPrinterCalculator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
