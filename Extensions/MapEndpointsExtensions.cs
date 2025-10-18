@@ -14,30 +14,20 @@ public static class MapEndpointsExtensions
 
             var calculator = new PrintCost();
 
-            var total = calculator.CostCalculate(
+            var totalWithoutProfit = calculator.CostCalculate(
                 request.MaterialPrice,
                 request.MaterialWeight,
                 request.UsedMaterial,
                 request.PrintingTime,
                 request.WattsConsumption,
-                request.EnergyCost,
-                request.Profit
+                request.EnergyCost
             );
+            var totalWithProfit = calculator.ApplyProfit(totalWithoutProfit, request.Profit);
 
-            var totalWp = calculator.CostCalculate(
-                request.MaterialPrice,
-                request.MaterialWeight,
-                request.UsedMaterial,
-                request.PrintingTime,
-                request.WattsConsumption,
-                request.EnergyCost,
-                request.Profit
-            );
-            
             return Results.Ok(new
             {
-                totalWithoutProfit = totalWp,
-                totalWithProfit = total,
+                totalWithoutProfit,
+                totalWithProfit,
             });
         }); 
     }
