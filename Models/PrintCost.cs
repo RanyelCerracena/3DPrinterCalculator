@@ -3,15 +3,18 @@ namespace _3DPrinterCalculator.Models;
 public class PrintCost
 {
     public decimal CostCalculate(decimal materialPrice, decimal materialWeight, decimal usedMaterial,
-        decimal printingTime, decimal wattsConsumption, decimal energyCost, int profit)
+        decimal printingTime, decimal wattsConsumption, decimal energyCost)
     {
         var pieceCost = ((materialWeight / 1000m) * materialPrice) * usedMaterial;
         var printerCost = ((wattsConsumption / 1000m) * energyCost) * (printingTime / 60m);
 
-        var totalWithoutProfit = printerCost + pieceCost;
-        var totalWithProfit = totalWithoutProfit * (1 + (profit / 100m));
-        var totalRounded = Math.Round(totalWithProfit, 2);
+        var total = printerCost + pieceCost;
+        return Math.Round(total, 2);
+    }
 
-        return totalRounded;
+    public decimal ApplyProfit(decimal baseCost, int profitPercentage)
+    {
+        var totalWithProfit = baseCost * (1 + (profitPercentage / 100m));
+        return Math.Round(totalWithProfit, 2);
     }
 }
