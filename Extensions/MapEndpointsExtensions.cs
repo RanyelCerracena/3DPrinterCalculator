@@ -36,7 +36,7 @@ public static class MapEndpointsExtensions
             
             return Results.Ok(new
             {
-                totalWithoutProfit = total,
+                totalWithoutProfit = totalWp,
                 totalWithProfit = total,
             });
         }); 
